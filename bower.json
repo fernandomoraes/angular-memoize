@@ -1,0 +1,28 @@
+d{
+  "name": "angular-memoize",
+  "version": "1.0.0",
+  "homepage": "https://github.com/fernandomoraes/angular-memoize",
+  "authors": [
+    "Fernando Moraes <fernandosdemoraes@gmail.com>"
+  ],
+  "description": "memoization in angularjs",
+  "main": "memoize.js",
+  "keywords": [
+    "memoize",
+    "angular",
+    "javascript",
+    "promise",
+    "cache"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.6"
+  }
+}
