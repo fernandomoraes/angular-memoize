@@ -12,7 +12,7 @@ angular.module('app', ['memoize'])
   .service('AnimalsService', function ($http, cache) {
   
     var load = function (name) {
-      return $http.get('animals', {q: 'name='+name})
+      return $http.get('animals', {params: {q: 'name='+name} })
         .then(function (response) {
           return response.data;
         })
