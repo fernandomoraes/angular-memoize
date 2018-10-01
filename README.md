@@ -1,7 +1,7 @@
 # angular-memoize
 memoization promises in angular
 
-##usage:
+## usage:
 
 ```sh
 bower install --save angular-memoize
